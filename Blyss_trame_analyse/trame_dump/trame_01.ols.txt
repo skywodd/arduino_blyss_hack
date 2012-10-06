@@ -1,0 +1,125 @@
+Getting raw ols data ...
+Parsing ols data ...
+New frequency rate : 200000.0 Hz
+Level 0 for 1228 samples = 6.14 ms
+Level 1 for 117 samples = 0.585 ms
+Level 0 for 4812 samples = 24.06 ms
+Level 1 for 489 samples = 2.445 ms
+Frame start trigerred !
+Level 0 for 81 samples = 0.405 ms
+Level 1 for 163 samples = 0.815 ms
+Level 0 for 81 samples = 0.405 ms
+Level 1 for 164 samples = 0.82 ms
+Level 0 for 81 samples = 0.405 ms
+Level 1 for 163 samples = 0.815 ms
+Level 0 for 81 samples = 0.405 ms
+Level 1 for 168 samples = 0.84 ms
+Level 0 for 81 samples = 0.405 ms
+Level 1 for 164 samples = 0.82 ms
+Level 0 for 80 samples = 0.4 ms
+Level 1 for 164 samples = 0.82 ms
+Level 0 for 81 samples = 0.405 ms
+Level 1 for 164 samples = 0.82 ms
+Level 0 for 160 samples = 0.8 ms
+Level 1 for 84 samples = 0.42 ms
+Level 0 for 160 samples = 0.8 ms
+Level 1 for 84 samples = 0.42 ms
+Level 0 for 81 samples = 0.405 ms
+Level 1 for 164 samples = 0.82 ms
+Level 0 for 80 samples = 0.4 ms
+Level 1 for 164 samples = 0.82 ms
+Level 0 for 81 samples = 0.405 ms
+Level 1 for 168 samples = 0.84 ms
+Level 0 for 81 samples = 0.405 ms
+Level 1 for 164 samples = 0.82 ms
+Level 0 for 160 samples = 0.8 ms
+Level 1 for 84 samples = 0.42 ms
+Level 0 for 160 samples = 0.8 ms
+Level 1 for 84 samples = 0.42 ms
+Level 0 for 81 samples = 0.405 ms
+Level 1 for 164 samples = 0.82 ms
+Level 0 for 160 samples = 0.8 ms
+Level 1 for 84 samples = 0.42 ms
+Level 0 for 81 samples = 0.405 ms
+Level 1 for 164 samples = 0.82 ms
+Level 0 for 160 samples = 0.8 ms
+Level 1 for 84 samples = 0.42 ms
+Level 0 for 80 samples = 0.4 ms
+Level 1 for 169 samples = 0.845 ms
+Level 0 for 80 samples = 0.4 ms
+Level 1 for 164 samples = 0.82 ms
+Level 0 for 81 samples = 0.405 ms
+Level 1 for 163 samples = 0.815 ms
+Level 0 for 81 samples = 0.405 ms
+Level 1 for 164 samples = 0.82 ms
+Level 0 for 81 samples = 0.405 ms
+Level 1 for 164 samples = 0.82 ms
+Level 0 for 160 samples = 0.8 ms
+Level 1 for 84 samples = 0.42 ms
+Level 0 for 80 samples = 0.4 ms
+Level 1 for 164 samples = 0.82 ms
+Level 0 for 81 samples = 0.405 ms
+Level 1 for 164 samples = 0.82 ms
+Level 0 for 80 samples = 0.4 ms
+Level 1 for 169 samples = 0.845 ms
+Level 0 for 80 samples = 0.4 ms
+Level 1 for 164 samples = 0.82 ms
+Level 0 for 160 samples = 0.8 ms
+Level 1 for 85 samples = 0.425 ms
+Level 0 for 160 samples = 0.8 ms
+Level 1 for 84 samples = 0.42 ms
+Level 0 for 160 samples = 0.8 ms
+Level 1 for 84 samples = 0.42 ms
+Level 0 for 160 samples = 0.8 ms
+Level 1 for 84 samples = 0.42 ms
+Level 0 for 160 samples = 0.8 ms
+Level 1 for 85 samples = 0.425 ms
+Level 0 for 160 samples = 0.8 ms
+Level 1 for 84 samples = 0.42 ms
+Level 0 for 80 samples = 0.4 ms
+Level 1 for 169 samples = 0.845 ms
+Level 0 for 80 samples = 0.4 ms
+Level 1 for 164 samples = 0.82 ms
+Level 0 for 160 samples = 0.8 ms
+Level 1 for 85 samples = 0.425 ms
+Level 0 for 160 samples = 0.8 ms
+Level 1 for 84 samples = 0.42 ms
+Level 0 for 80 samples = 0.4 ms
+Level 1 for 164 samples = 0.82 ms
+Level 0 for 81 samples = 0.405 ms
+Level 1 for 164 samples = 0.82 ms
+Level 0 for 160 samples = 0.8 ms
+Level 1 for 84 samples = 0.42 ms
+Level 0 for 160 samples = 0.8 ms
+Level 1 for 84 samples = 0.42 ms
+Level 0 for 160 samples = 0.8 ms
+Level 1 for 89 samples = 0.445 ms
+Level 0 for 160 samples = 0.8 ms
+Level 1 for 84 samples = 0.42 ms
+Level 0 for 81 samples = 0.405 ms
+Level 1 for 164 samples = 0.82 ms
+Level 0 for 80 samples = 0.4 ms
+Level 1 for 164 samples = 0.82 ms
+Level 0 for 81 samples = 0.405 ms
+Level 1 for 164 samples = 0.82 ms
+Level 0 for 80 samples = 0.4 ms
+Level 1 for 164 samples = 0.82 ms
+Level 0 for 81 samples = 0.405 ms
+Level 1 for 164 samples = 0.82 ms
+Level 0 for 160 samples = 0.8 ms
+Level 1 for 84 samples = 0.42 ms
+Level 0 for 80 samples = 0.4 ms
+Level 1 for 165 samples = 0.825 ms
+Level 0 for 4812 samples = 24.06 ms
+Frame end trigerred !
+Decoding low level data ...
+Decoding byte 0
+Decoding byte 1
+Decoding byte 2
+Decoding byte 3
+Decoding byte 4
+Decoding byte 5
+Decoding byte 6
+Decoding binary data ...
+Decode data in stream :
+FE 79 5F 78 19 87 D0
