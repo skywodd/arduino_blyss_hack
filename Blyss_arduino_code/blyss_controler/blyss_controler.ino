@@ -35,7 +35,7 @@ volatile uint8_t bitmask;
 volatile uint8_t *port;
 
 /** Frame buffer with single-buffering */
-byte RF_BUFFER[7];
+byte RF_BUFFER_RX[7],  RF_BUFFER_TX[7];
 
 /** Serial buffer (for incoming commands) */
 char SERIAL_BUFFER[12];
