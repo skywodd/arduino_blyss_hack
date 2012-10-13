@@ -7,7 +7,7 @@ Currently the following source code have been made :
 If you want to compile the program with arduino <=0023 add this line at the top of the source code :
 
 <pre>
-#include <pins_arduino.h>
+#include "pins_arduino.h"
 </pre>
 
 Or you will not be able to compile !
