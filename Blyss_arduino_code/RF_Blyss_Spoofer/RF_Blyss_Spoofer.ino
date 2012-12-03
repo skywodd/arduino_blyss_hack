@@ -189,7 +189,7 @@ inline void set_channel(byte *data, byte channel) {
  * @param channel Target channel
  */
 inline void set_global_channel(byte *data, byte channel) {
-  data[1] = (data[1] & 0x0F) | (channel & 0xF0);
+  data[1] = (data[1] & 0x0F) | ((channel << 4) & 0xF0);
 }
 
 /* -------------------------------------------------------- */
