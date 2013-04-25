@@ -74,6 +74,15 @@ void setup() {
   SIG_LOW();
 }
 
+/* Convert ASCII hexa to decimal */
+unsigned char hexToDec(char c) {
+  if (c >= '0' && c <= '9')
+    return c - '0';
+  if (c >= 'A' && c <= 'F')
+    return c - 'A' + 10;
+  return 255;
+}
+
 /** loop() */
 void loop() {
 
@@ -150,12 +159,12 @@ void loop() {
         set_global_channel(RF_BUFFER_TX, CH_D);
         break;
       default:
-        set_global_channel(RF_BUFFER_TX, global_channel);
+        set_global_channel(RF_BUFFER_TX, hexToDec(global_channel));
         break;
       }
 
       /* Compute virtual switch state */
-      set_status(RF_BUFFER_TX, (status == 'P') ? ON : (status == 'p') ? OFF : status);
+      set_status(RF_BUFFER_TX, (status == 'P') ? ON : (status == 'p') ? OFF : hexToDec(status));
 
       /* Insert rolling code and token into frame-data buffer */
       generate_rolling_code(RF_BUFFER_TX);
