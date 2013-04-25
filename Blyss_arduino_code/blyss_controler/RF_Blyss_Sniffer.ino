@@ -112,6 +112,20 @@ byte data_match(byte *data_1, byte *data_2) {
   return true;
 }
 
+/**
+ * Convert decimal to ASCII hexa
+ *
+ * @param v Input decimal value
+ * @return Hexa value (upper case only)
+ */
+char decToHex(unsigned char v) {
+  if (v >= 0 && v <= 9)
+    return '0' + v;
+  if (v >= 10 && c <= 15)
+    return 'A' + v;
+  return '\0';
+}
+
 /** 
  * Decode raw binary data to human readable text outputed on the serial port
  *
@@ -137,7 +151,7 @@ void data_analyse(byte *data) {
     Serial.write('d');
     break;
   default :
-    Serial.print(global_channel, HEX);
+    Serial.write(decToHex(global_channel));
     break;
   }
   Serial.write(';');
@@ -185,7 +199,7 @@ void data_analyse(byte *data) {
     if(light_status == 0)
       Serial.write('P');
     else 
-      Serial.print(light_status, HEX);
+      Serial.write(decToHex(light_status));
   }
   Serial.write(';');
 

@@ -74,7 +74,12 @@ void setup() {
   SIG_LOW();
 }
 
-/* Convert ASCII hexa to decimal */
+/**
+ * Convert ASCII hexa to decimal 
+ *
+ * @param c Input hexa char (upper case only)
+ * @return Decimal value
+ */
 unsigned char hexToDec(char c) {
   if (c >= '0' && c <= '9')
     return c - '0';
