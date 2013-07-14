@@ -165,16 +165,16 @@ void data_analyse(byte *data) {
   byte global_channel = (data[1] & 0xF0) >> 4;
   switch(global_channel) {
   case CH_A:
-    Serial.println("CH_A");
+    Serial.println("CH_A (0)");
     break;
   case CH_B:
-    Serial.println("CH_B");
+    Serial.println("CH_B (1)");
     break;
   case CH_C:
-    Serial.println("CH_C");
+    Serial.println("CH_C (2)");
     break;
   case CH_D:
-    Serial.println("CH_D");
+    Serial.println("CH_D (3)");
     break;
   default :
     Serial.println(global_channel, HEX);
@@ -196,25 +196,27 @@ void data_analyse(byte *data) {
   Serial.print("RF channel : ");
   switch(data[3] & 0x0F) {
   case CH_1:
-    Serial.println("CH_1");
+    Serial.println("CH_1 (8)");
     break;
   case CH_2:
-    Serial.println("CH_2");
+    Serial.println("CH_2 (4)");
     break;
   case CH_3:
-    Serial.println("CH_3");
+    Serial.println("CH_3 (2)");
     break;
   case CH_4:
-    Serial.println("CH_4");
+    Serial.println("CH_4 (1)");
     break;
   case CH_5:
-    Serial.println("CH_5");
+    Serial.println("CH_5 (3)");
     break;
   case CH_ALL:
-    Serial.println("CH_ALL");
+    Serial.println("CH_ALL (0)");
     break;
   default :
-    Serial.println("ERROR");
+    Serial.print("ERROR (");
+    Serial.print(data[3] & 0x0F, HEX);
+    Serial.println(")");
     break;
   }
 
