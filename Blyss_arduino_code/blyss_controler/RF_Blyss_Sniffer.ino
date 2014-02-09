@@ -121,7 +121,7 @@ byte data_match(byte *data_1, byte *data_2) {
 char decToHex(unsigned char v) {
   if (v >= 0 && v <= 9)
     return '0' + v;
-  if (v >= 10 && c <= 15)
+  if (v >= 10 && v <= 15)
     return 'A' + v;
   return '\0';
 }
